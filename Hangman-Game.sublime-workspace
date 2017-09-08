@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isCorrectGuess"
+			],
+			[
 				"array",
 				"arrayLettersGuessed"
+			],
+			[
+				"arra",
+				"arrayLettersGuessed"
+			],
+			[
+				"remainin",
+				"remainingGuesses"
 			],
 			[
 				"to",
@@ -14,10 +26,6 @@
 			[
 				"guess",
 				"guess"
-			],
-			[
-				"is",
-				"isLetter"
 			],
 			[
 				"arr",
@@ -155,7 +163,7 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 2292,
+				"buffer_size": 3130,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -168,7 +176,6 @@
 			"settings":
 			{
 				"buffer_size": 786,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -393,15 +400,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2292,
+						"buffer_size": 3130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1852,
-								1852
+								3129,
+								3129
 							]
 						],
 						"settings":
@@ -409,7 +416,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
