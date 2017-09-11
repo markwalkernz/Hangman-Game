@@ -163,7 +163,7 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 2999,
+				"buffer_size": 2927,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -223,16 +223,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game",
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/assets",
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/assets/css",
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/assets/javascript",
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/Instructions"
-	],
 	"file_history":
 	[
+		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/22-RPS-Coded/Solved/rps-8.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/index.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/08-14-2017-NWDT-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/31-MyFirstObject/Solved/car-object-solved.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/08-14-2017-NWDT-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/31-MyFirstObject/Unsolved/car-object-unsolved.html",
@@ -400,15 +393,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2999,
+						"buffer_size": 2927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								833
+								2856,
+								2856
 							]
 						],
 						"settings":
@@ -416,7 +409,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1260.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -441,8 +434,8 @@
 						"selection":
 						[
 							[
-								666,
-								666
+								430,
+								430
 							]
 						],
 						"settings":
@@ -451,7 +444,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
