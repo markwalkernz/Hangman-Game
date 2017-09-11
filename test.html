@@ -1,0 +1,69 @@
+<!-- Week 3 coding boot camp homework. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+
+	<!-- links to css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	
+
+</head>
+
+<body>
+	
+<!-- header -->
+
+<!-- container for image -->
+
+	<!-- container for text -->
+	<p>Press any key to start</p>
+	<br>
+
+	<p>Wins</p>
+	<p id="wins"></p>
+	<br>
+
+	<p>Current Word</p>
+	<p id="current-word"></p>
+	<br>
+
+	<p>Number of guesses remaining<p>
+	<p id="remaining-guesses"></p>
+	<br>
+
+	<p>Letters already guessed</p>
+	<p id="letters-guessed"></p>
+	<br>
+
+<!-- link to javascript -->
+	<script>
+
+var guess = "";
+var counter = 0;
+		
+document.onkeyup = function() {
+
+		// store key press as a variable
+		var guess = event.key;
+		console.log("key pressed: " + guess);
+
+		counter = counter +1;
+
+		if (counter == 10) {
+			console.log("Game Over");
+			counter = 0;
+		}
+
+}
+
+
+	</script>
+
+</body>
+</html>

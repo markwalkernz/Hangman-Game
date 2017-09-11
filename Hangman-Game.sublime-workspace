@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
-				"is",
-				"isCorrectGuess"
+				"array",
+				"arrayWrongGuesses"
 			],
 			[
-				"array",
-				"arrayLettersGuessed"
+				"reset",
+				"resetGame"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"remaining",
+				"remainingGuesses"
+			],
+			[
+				"rest",
+				"resetGame"
+			],
+			[
+				"correct",
+				"correctGuesses"
 			],
 			[
 				"arra",
-				"arrayLettersGuessed"
+				"arrayAnswer"
+			],
+			[
+				"game",
+				"gameOver"
+			],
+			[
+				"remiain",
+				"remainingGuesses"
+			],
+			[
+				"is",
+				"isCorrectGuess"
 			],
 			[
 				"remainin",
@@ -163,16 +191,22 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 2927,
+				"buffer_size": 3449,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!-- Week 3 coding boot camp homework. -->\n\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Hangman</title>\n\n\t<!-- links to css -->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/reset.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/style.css\">\n\n\t\n\n</head>\n\n<body>\n\t\n<!-- header -->\n\n<!-- container for image -->\n\n\t<!-- container for text -->\n\t<p>Press any key to start</p>\n\t<br>\n\n\t<p>Wins</p>\n\t<p id=\"wins\"></p>\n\t<br>\n\n\t<p>Current Word</p>\n\t<p id=\"current-word\"></p>\n\t<br>\n\n\t<p>Number of guesses remaining<p>\n\t<p id=\"remaining-guesses\"></p>\n\t<br>\n\n\t<p>Letters already guessed</p>\n\t<p id=\"letters-guessed\"></p>\n\t<br>\n\n<!-- link to javascript -->\n\t<script type=\"text/javascript\" src=\"assets/javascript/game.js\"></script>\n\n</body>\n</html>",
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 1003,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "index.html",
-			"file_size": 833,
-			"file_write_time": 131493556641709216,
 			"settings":
 			{
 				"buffer_size": 786,
@@ -223,6 +257,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game"
+	],
 	"file_history":
 	[
 		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/22-RPS-Coded/Solved/rps-8.html",
@@ -393,23 +431,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2927,
+						"buffer_size": 3449,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2856,
-								2856
+								586,
+								586
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1440.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -418,11 +457,40 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
@@ -434,8 +502,8 @@
 						"selection":
 						[
 							[
-								430,
-								430
+								0,
+								0
 							]
 						],
 						"settings":

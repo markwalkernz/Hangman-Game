@@ -1,37 +1,54 @@
 // Week 3 coding boot camp homework.
 
-// initial variables
+// variables
 var dictionary = ["argentina", "bolivia", "brazil", "chile", "colombia", "ecuador", "guyana", "paraguay", "peru", "suriname", "uruguay", "venezuela"];
 var wins = 0;
+var lastAnswer = "";
 var remainingGuesses = 12;
-var arrayLettersGuessed = [];
+var arrayWrongGuesses = []
+var answer = "";
+var arrayAnswer = [];
+var arrayCorrectGuesses = [];
+var correctGuesses = "";
 var gameOver = false;
 
-document.getElementById("wins").innerHTML = wins;
-document.getElementById("remaining-guesses").innerHTML = remainingGuesses;
+// function to reset the game
+function resetGame() {
 
+	remainingGuesses = 12;
 
-// choose a new word as the answer
-var randomNumber = Math.floor(Math.random()*dictionary.length);
-answer = dictionary[randomNumber];
+	arrayWrongGuesses = [];
 
-console.log(answer);
+	// choose a new word as the answer
+	var randomNumber = Math.floor(Math.random()*dictionary.length);
+	answer = dictionary[randomNumber];
+	
+	// put the answer in an array
+	arrayAnswer = answer.split("");
 
-// put the answer in an array
-var arrayAnswer = answer.split("");
+	// create an array for correct guesses, initially all blanks
+	arrayCorrectGuesses = [];
 
-console.log(arrayAnswer);
+	for (var i = 0; i < answer.length; i++) {
+		arrayCorrectGuesses.push("_");
+	}
 
-// create an array for the current word, initially all blanks
-var arrayCurrentWord = [];
+	correctGuesses = arrayCorrectGuesses.join("");
+	
+	// set game over to false
+	gameOver = false;
 
-for (var i = 0; i < answer.length; i++) {
-	arrayCurrentWord.push("_");
+	// update the game on screen
+	console.log(answer);
+	console.log(arrayAnswer);
+	document.getElementById("wins").innerHTML = wins;
+	document.getElementById("current-word").innerHTML = correctGuesses
+	document.getElementById("remaining-guesses").innerHTML = remainingGuesses;
+	document.getElementById("letters-guessed").innerHTML = arrayWrongGuesses;
 }
 
-// show the current word as a number of blanks on screen
-var currentWord = arrayCurrentWord.join("");
-document.getElementById("current-word").innerHTML = currentWord;
+// reset the game to initialise it
+resetGame();
 
 // enter guess
 document.onkeyup = function(event) {
@@ -40,7 +57,7 @@ document.onkeyup = function(event) {
 	var guess = event.key;
 	console.log("key pressed: " + guess);
 
-	// ensure correct guess is set to false
+	// initialise correct guess and set it to false
 	var isCorrectGuess = false;
 
 	// check that guess is a letter and convert to lower case
@@ -48,67 +65,61 @@ document.onkeyup = function(event) {
 		console.log("guess is a letter");
 		guess = guess.toLowerCase();
 		console.log("guess is " + guess);
+
+		// then check if the letter has been guessed before
+		if (arrayWrongGuesses.indexOf(guess) >= 0 || arrayCorrectGuesses.indexOf(guess) >= 0) {
+			alert("already guessed " + guess + ", please try again.");
+		}
+
+		// if the letter has not been guessed before
+		else {
+			console.log("not guessed yet");
+
+			// for each letter in the answer
+			for (var i = 0; i < answer.length; i++) {
+
+				// check if current guess is in the answer	
+				if (guess === arrayAnswer[i]) {
+
+					// if it is, put the letter in the current word being shown
+					arrayCorrectGuesses[i] = guess;
+					correctGuesses = arrayCorrectGuesses.join("");
+					document.getElementById("current-word").innerHTML = correctGuesses;
+					
+					// set correct guess to true
+					isCorrectGuess = true;
+				}
+			}
+				
+			// if the current guess is not in the answer
+			if (isCorrectGuess == false) {
+				// reduce the number of guesses remaining by 1
+				remainingGuesses = remainingGuesses - 1;
+				document.getElementById("remaining-guesses").innerHTML = remainingGuesses;
+
+				// show the letter as already guessed
+				arrayWrongGuesses.push(guess);
+				document.getElementById("letters-guessed").innerHTML = arrayWrongGuesses;
+			}
+		}
 	}
-	
+
 	else {
 		alert("Your guess is not a letter, please try again");
 	}
 
-	// check if the letter has been guessed before
-	if (arrayLettersGuessed.indexOf(guess) >= 0 || arrayCurrentWord.indexOf(guess) >= 0) {
-		alert("already guessed " + guess + ", please try again.");
+	// check if the whole word has been guessed
+	if (correctGuesses == answer) {
+		wins = wins +1;
+		lastAnswer = answer;
+		resetGame();
+		// change image
 	}
 
-	// if the letter has not been guessed before
-	else {
-		console.log("not guessed yet");
-
-		// for each letter in the answer
-		for (var i = 0; i < answer.length; i++) {
-
-			// check if current guess is in the answer	
-			if (guess === arrayAnswer[i]) {
-
-				// if it is, put the letter in the current word being shown
-
-				arrayCurrentWord[i] = guess;
-				currentWord = arrayCurrentWord.join("");
-				document.getElementById("current-word").innerHTML = currentWord;
-				
-				// set correct guess to true
-				isCorrectGuess = true;
-			}
-		}
-			
-		// if the current guess is not in the answer
-		if (isCorrectGuess == false) {
-			// reduce the number of guesses remaining by 1
-			remainingGuesses = remainingGuesses - 1;
-			document.getElementById("remaining-guesses").innerHTML = remainingGuesses;
-
-			// show the letter as already guessed
-			arrayLettersGuessed.push(guess);
-			document.getElementById("letters-guessed").innerHTML = arrayLettersGuessed;
-		}
-
-		// check if the whole word has been guessed
-		if (currentWord == answer) {
-			wins = wins +1;
-			document.getElementById("wins").innerHTML = wins;
-
-			gameOver = true;
-			console.log("Game Over: " + gameOver);
-			// change image
-		}
-
-		// check if remaining guesses is zero
-		if (remainingGuesses == 0) {
-			gameOver = true;
-			console.log("Game Over: " + gameOver + " no guesses left");
-		}
+	// check if remaining guesses is zero
+	if (remainingGuesses == 0) {
+		alert("Sorry, no more guesses remaining. The correct answer was " + answer + ".");
+		resetGame();
 	}
 
 }; // end keyup
-
-	
-
