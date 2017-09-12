@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"inli",
 				"inline-block"
 			],
@@ -112,10 +116,6 @@
 				"border-top"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"magin",
 				"margin-left"
 			],
@@ -211,7 +211,7 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 3825,
+				"buffer_size": 3823,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -220,7 +220,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 634,
+				"buffer_size": 620,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -238,7 +238,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1210,
+				"buffer_size": 1205,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -463,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3825,
+						"buffer_size": 3823,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								494,
+								494
 							]
 						],
 						"settings":
@@ -480,10 +480,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -492,15 +492,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 634,
+						"buffer_size": 620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								375,
+								375
 							]
 						],
 						"settings":
@@ -511,7 +511,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -555,15 +555,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1210,
+						"buffer_size": 1205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								409
+								626,
+								626
 							]
 						],
 						"settings":
@@ -572,10 +572,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 976.0,
+						"translation.y": 416.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -657,7 +657,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

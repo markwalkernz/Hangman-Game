@@ -8,18 +8,10 @@ body {
 
 header {
 	font-size: 2em;
+	font-weight: bold;
 	text-align: center;
 	padding: 30px;
-	/* background-color: #ffc90d; */
 	background-image: url("../images/outline-map.gif");
-}
-
-#flag-image {
-	display:block;
-	margin:auto;
-	padding: 10px;
-	width: 150px;
-	height: 150px;
 }
 
 .container {
@@ -36,6 +28,14 @@ header {
 	padding: 5%;
 	float:left;
 	text-align: center;
+}
+
+#flag-image {
+	display:block;
+	margin:auto;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
 }
 
 #current-word {

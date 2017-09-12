@@ -4,7 +4,7 @@
 var dictionary = ["ARGENTINA", "BOLIVIA", "BRAZIL", "CHILE", "COLOMBIA", "ECUADOR", "GUYANA", "PARAGUAY", "PERU", "SURINAME", "URUGUAY", "VENEZUELA"];
 var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var wins = 0;
-var lastAnswer = "START";
+var lastAnswer = "none";
 var remainingGuesses = 12;
 var arrayWrongGuesses = []
 var answer = "";
@@ -12,7 +12,7 @@ var arrayAnswer = [];
 var arrayCorrectGuesses = [];
 var correctGuesses = "";
 var gameOver = false;
-var imgSrc = "assets/images/START.png";
+var imgSrc = "assets/images/none.png";
 
 // function to reset the game
 function resetGame() {
