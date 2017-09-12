@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"las",
+				"lastAnswer"
+			],
+			[
 				"array",
 				"arrayWrongGuesses"
 			],
@@ -46,10 +74,6 @@
 			[
 				"remainin",
 				"remainingGuesses"
-			],
-			[
-				"to",
-				"toLowerCase"
 			],
 			[
 				"guess",
@@ -98,10 +122,6 @@
 			[
 				"padding",
 				"padding-left"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"con",
@@ -191,7 +211,16 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 3449,
+				"buffer_size": 3825,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 634,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -200,7 +229,7 @@
 			"file": "test.html",
 			"settings":
 			{
-				"buffer_size": 1003,
+				"buffer_size": 862,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -209,7 +238,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 786,
+				"buffer_size": 1210,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -259,10 +289,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game"
+		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game",
+		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/assets",
+		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/assets/css"
 	],
 	"file_history":
 	[
+		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Basic-Portfolio/assets/css/style.css",
 		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/22-RPS-Coded/Solved/rps-8.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Hangman-Game/index.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/08-14-2017-NWDT-Class-Repository-FSF/01-Class-Content/03-javascript/01-Activities/31-MyFirstObject/Solved/car-object-solved.html",
@@ -324,7 +357,6 @@
 		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/14-TextLayout/README.md",
 		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/MyFirstHTML.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Classwork/style.css",
-		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Basic-Portfolio/assets/css/style.css",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Basic-Portfolio/index.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/Basic-Portfolio/portfolio.html",
 		"/C/Users/markw/Documents/Coding Boot Camp/Repos/HW-Wireframe/index.html",
@@ -431,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3449,
+						"buffer_size": 3825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								586,
-								586
+								340,
+								340
 							]
 						],
 						"settings":
@@ -448,10 +480,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 634,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -461,20 +521,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "test.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1003,
+						"buffer_size": 862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								927,
-								927
+								717,
+								666
 							]
 						],
 						"settings":
@@ -483,27 +543,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 786,
+						"buffer_size": 1210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								409,
+								409
 							]
 						],
 						"settings":
@@ -512,10 +572,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 976.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

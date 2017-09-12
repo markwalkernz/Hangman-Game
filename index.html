@@ -18,28 +18,50 @@
 <body>
 	
 <!-- header -->
+<header>
+	Hangman: South American Countries
+</header>
 
-<!-- container for image -->
+<!-- page content -->
+<div class="container">
+
+	<!-- container for image -->
+	<div class="panel">
+		<img id="flag-image" src="assets/images/START.png">
+		<p>Last Answer:</p>
+		<p id="last-answer"></p>
+		<br>
+
+		<p>Wins:</p>
+		<p id="wins"></p>
+		<br>
+
+	</div> <!-- end of container for image -->
 
 	<!-- container for text -->
-	<p>Press any key to start</p>
-	<br>
+	<div class="panel">
 
-	<p>Wins</p>
-	<p id="wins"></p>
-	<br>
+		<p>Type a letter to make a guess</p>
+		<br>
 
-	<p>Current Word</p>
-	<p id="current-word"></p>
-	<br>
+		<p>Current Word:</p>
+		<p id="current-word"></p>
+		<br>
 
-	<p>Number of guesses remaining<p>
-	<p id="remaining-guesses"></p>
-	<br>
+		<p>Letters already guessed:</p>
+		<p id="letters-guessed"></p>
+		<br>
 
-	<p>Letters already guessed</p>
-	<p id="letters-guessed"></p>
-	<br>
+		<p>Number of guesses remaining:<p>
+		<p id="remaining-guesses"></p>
+		<br>
+	
+	</div> <!-- end of container for text -->
+
+
+
+
+</div> <!-- end of container for page content -->
 
 <!-- link to javascript -->
 	<script type="text/javascript" src="assets/javascript/game.js"></script>

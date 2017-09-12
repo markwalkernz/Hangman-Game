@@ -1,2 +1,43 @@
 /* Week 3 coding boot camp homework */
 
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	background-color: #009b3a;
+}
+
+header {
+	font-size: 2em;
+	text-align: center;
+	padding: 30px;
+	/* background-color: #ffc90d; */
+	background-image: url("../images/outline-map.gif");
+}
+
+#flag-image {
+	display:block;
+	margin:auto;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+.container {
+	max-width: 640px;
+	margin: 20px auto;
+	overflow: auto;
+	border: solid;
+	border-radius: 5px;
+	background-color: #007bc1;
+}
+
+.panel {
+	width: 40%;
+	padding: 5%;
+	float:left;
+	text-align: center;
+}
+
+#current-word {
+	letter-spacing: 4px;
+}

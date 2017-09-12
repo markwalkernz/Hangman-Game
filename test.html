@@ -41,26 +41,12 @@
 	<p id="letters-guessed"></p>
 	<br>
 
+	<img id="flag-image" src="assets/images/START.png">
+
 <!-- link to javascript -->
 	<script>
 
-var guess = "";
-var counter = 0;
-		
-document.onkeyup = function() {
-
-		// store key press as a variable
-		var guess = event.key;
-		console.log("key pressed: " + guess);
-
-		counter = counter +1;
-
-		if (counter == 10) {
-			console.log("Game Over");
-			counter = 0;
-		}
-
-}
+document.getElementById("flag-image").src = "assets/images/ARGENTINA.png";
 
 
 	</script>
