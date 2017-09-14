@@ -211,7 +211,7 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 3854,
+				"buffer_size": 3897,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -220,7 +220,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 654,
+				"buffer_size": 562,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -238,7 +238,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1288,
+				"buffer_size": 1495,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -420,7 +420,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -463,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3854,
+						"buffer_size": 3897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3854,
-								3854
+								1705,
+								1705
 							]
 						],
 						"settings":
@@ -480,7 +480,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -492,15 +492,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 654,
+						"buffer_size": 562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
+								561,
+								561
 							]
 						],
 						"settings":
@@ -512,7 +512,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -556,15 +556,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1288,
+						"buffer_size": 1495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								693,
+								693
 							]
 						],
 						"settings":
@@ -573,10 +573,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 160.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -584,7 +584,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 32.0
 	},
 	"input":
 	{
@@ -658,7 +658,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

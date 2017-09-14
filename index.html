@@ -7,11 +7,10 @@
 	<meta charset="UTF-8">
 	<title>Hangman</title>
 
-	<!-- links to css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- links to bootstrap and css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	
 
 </head>
 
@@ -19,62 +18,63 @@
 	
 <!-- header -->
 <header>
-	Hangman: South American Countries
+	<div class="page-header text-center">
+		<h1>Hangman: South American Countries</h1>
+	</div>
 </header>
 
 <!-- page content -->
 <div class="container">
 
-	<!-- message area -->
-	<div class = "message">
-		<p>Type a letter to make a guess</p>
-	</div>
+	<!-- message row -->
+	<div class = "row">
 
-	<div class="panel">
+		<div class = "col-md-12 text-center">
+			<br>
+			<h2>Type a letter to make a guess</h2>
+			<br>
+		</div>
 
-		<p>Last Answer:</p>
-		<p id="last-answer"></p>
+	</div> <!-- end message row -->
 
-		<img id="flag-image" src="assets/images/none.png">
+	<!-- game row -->
+	<div class = "row">
 
-		<p>Wins:</p>
-		<p id="wins"></p>
+		<div class="col-md-6 text-center">
 
-	</div>
+			<p>Last Answer:</p>
+			<p id="last-answer"></p>
+
+			<img id="flag-image" src="assets/images/none.png">
+
+			<p>Wins:</p>
+			<p id="wins"></p>
+
+		</div>
 
 
-	<div class="panel">
+		<div class="col-md-6 text-center">
 
-		<p>Current Word:</p>
-		<p id="current-word"></p>
-		<br>
+			<p>Current Word:</p>
+			<p id="current-word"></p>
+			<br>
 
-	</div>
+			<p>Number of guesses remaining:</p>
+			<p id="remaining-guesses"></p>
+			<br>
 
-	<div class ="panel">
+			<p>Letters already guessed:</p>
+			<p id="letters-guessed"></p>
+			<br>
 
-		<p>Number of guesses remaining:</p>
-		<p id="remaining-guesses"></p>
-		<br>
+		</div>
 
-	</div>
-
-	<div class ="panel">
-	
-		<p>Letters already guessed:</p>
-		<p id="letters-guessed"></p>
-		<br>
-
-	</div> <!-- end of right panel -->
+	</div> <!-- end game row -->
 
 </div>
 
-
-
-</div> <!-- end of container for page content -->
-
 <!-- link to javascript -->
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>

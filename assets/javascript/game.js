@@ -129,6 +129,7 @@ document.onkeyup = function(event) {
 	if (correctGuesses == answer) {
 		wins = wins +1;
 		lastAnswer = answer;
+		alert(answer + " is the right answer!");
 		resetGame();
 	}
 

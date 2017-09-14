@@ -1,55 +1,40 @@
 /* Week 3 coding boot camp homework */
 
 body {
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 24px;
-
+	font-family: Georgia, serif;
+	font-weight: bold;
+		font-style: italic;
 	background-image: url("../images/rug.jpg");
 	background-repeat: no-repeat;
 }
 
-header {
-	font-size: 2em;
-	font-weight: bold;
-	text-align: center;
-	padding: 20px;
+h1 {
+	color: #ffffff;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.page-header {
 	background-color: #d72984;
+	padding: 10px;
 }
 
 .container {
-	max-width: 640px;
-	margin: 20px auto;
-	padding: 2%;
-	overflow: auto;
-	border: solid;
-	border-radius: 5px;
 	background-color: #01a24c;
-}
-
-.message {
-	width: 300px;
-	padding: 20px;
-	margin: auto;
-	text-align: center;
-}
-
-
-.panel {
-	width: 300px;
-	min-height: 85px;
-	padding: 10px;
-	float:left;
-	text-align: center;
+	margin-top: 40px;
 }
 
 #flag-image {
-	display:block;
-	margin:auto;
-	padding: 12px;
+	padding: 10px; */
 	width: 150px;
 	height: 150px;
 }
 
 #current-word {
 	letter-spacing: 4px;
+}
+
+@media screen and (min-width: 992px) {
+
+	.container {max-width: 720px;}
+
 }
