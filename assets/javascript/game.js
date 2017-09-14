@@ -1,4 +1,4 @@
-// Week 3 coding boot camp homework.
+// Week 3 coding boot camp homework. Hangman game.
 
 // variables
 var dictionary = ["ARGENTINA", "BOLIVIA", "BRAZIL", "CHILE", "COLOMBIA", "ECUADOR", "GUYANA", "PARAGUAY", "PERU", "SURINAME", "URUGUAY", "VENEZUELA"];
@@ -17,18 +17,18 @@ var imgSrc = "assets/images/none.png";
 // function to reset the game
 function resetGame() {
 
+	// reset remaining guesses and wrong guesses
 	remainingGuesses = 12;
-
 	arrayWrongGuesses = [];
 
 	// choose a new word as the answer
 	var randomNumber = Math.floor(Math.random()*dictionary.length);
 	answer = dictionary[randomNumber];
 	
-	// put the answer in an array
+	// put the letters for the answer in an array
 	arrayAnswer = answer.split("");
 
-	// create an array for correct guesses, initially all blanks
+	// reset the array for correct guesses to all blanks
 	arrayCorrectGuesses = [];
 
 	for (var i = 0; i < answer.length; i++) {
@@ -40,16 +40,14 @@ function resetGame() {
 	// set game over to false
 	gameOver = false;
 
-	// console log the new answer and update the game on screen
-	console.log(answer);
-	console.log(arrayAnswer);
+	// update the game on screen
 	document.getElementById("wins").innerHTML = wins;
 	document.getElementById("current-word").innerHTML = correctGuesses
 	document.getElementById("remaining-guesses").innerHTML = remainingGuesses;
 	document.getElementById("letters-guessed").innerHTML = arrayWrongGuesses;
 	document.getElementById("last-answer").innerHTML = lastAnswer;
 	
-	// update the image on screen
+	// update the image on screen to match the last answer
 	imgSrc = "assets/images/" + lastAnswer + ".png"
 	document.getElementById("flag-image").src = imgSrc;
 
@@ -60,14 +58,12 @@ function resetGame() {
 // reset the game to initialise it
 resetGame();
 
-// enter guess
+// user enters a guess by pressing a key
 document.onkeyup = function(event) {
 
 	// store key press as a variable and convert to upper case
 	var guess = event.key;
 	guess = guess.toUpperCase();
-
-	console.log("key pressed: " + guess);
 
 	// initialise correct guess and set it to false
 	var isCorrectGuess = false;
