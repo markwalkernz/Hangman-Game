@@ -211,7 +211,7 @@
 			"file": "assets/javascript/game.js",
 			"settings":
 			{
-				"buffer_size": 3823,
+				"buffer_size": 3854,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -220,7 +220,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 620,
+				"buffer_size": 654,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -238,7 +238,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1205,
+				"buffer_size": 1288,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -454,7 +454,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -463,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3823,
+						"buffer_size": 3854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								494,
-								494
+								3854,
+								3854
 							]
 						],
 						"settings":
@@ -483,7 +483,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -492,26 +492,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 620,
+						"buffer_size": 654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								375
+								157,
+								157
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -555,15 +556,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1205,
+						"buffer_size": 1288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								626,
-								626
+								341,
+								341
 							]
 						],
 						"settings":
@@ -572,7 +573,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 160.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

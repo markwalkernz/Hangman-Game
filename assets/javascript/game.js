@@ -40,7 +40,7 @@ function resetGame() {
 	// set game over to false
 	gameOver = false;
 
-	// update the game on screen
+	// console log the new answer and update the game on screen
 	console.log(answer);
 	console.log(arrayAnswer);
 	document.getElementById("wins").innerHTML = wins;
