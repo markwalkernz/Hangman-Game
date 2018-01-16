@@ -1,2 +1,2 @@
 # Hangman-Game
-Coding Boot Camp Week 3 homework.
+A simple hangman game that has been built using javascript and css.
